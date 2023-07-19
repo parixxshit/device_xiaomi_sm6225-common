@@ -263,9 +263,6 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT -->
     </integer-array>
 
-    <!-- Whether device has turbo power charging support -->
-    <bool name="config_hasTurboPowerCharger">true</bool>
-
     <!-- Paths to fast charging status file to detect whether an oem fast charger is active -->
     <string-array name="config_oemFastChargerStatusPaths" translatable="false">
         <item>/sys/class/power_supply/bms/fastcharge_mode</item>
