@@ -13,14 +13,17 @@ Chrome-Stub \
 DerpWalls \
 DeskClock \
 Drive \
+GameSpace \
 Gallery2 \
 Maps \
 MusicFX \
+ParallelSpace \
 PrebuiltGmail \
 SafetyHubPrebuilt \
 Stk \
 Tag \
 TouchGestures \
+Updater \
 YouTube \
 YoutubeMusicPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
