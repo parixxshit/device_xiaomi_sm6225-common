@@ -1,4 +1,4 @@
-# Copyright (C) 2022 Paranoid Android
+# Copyright (C) 2023 Project 404
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ on init
     copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3
     chmod 0644 /mnt/vendor/dsp/fastrpc_shell_3
     mount none /mnt/vendor/dsp/fastrpc_shell_3 /vendor/dsp/cdsp/fastrpc_shell_3 bind
-    
+
 on late-fs
     # Start services for bootanim
     start servicemanager
@@ -31,7 +31,7 @@ on late-fs
     start vendor.configstore-hal
     start vendor.qti.hardware.display.composer
     start vendor.qti.hardware.display.allocator
-    
+
 on early-boot
     # SSR Setup
     write /sys/bus/msm_subsys/devices/subsys0/restart_level RELATED
