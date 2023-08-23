@@ -8,11 +8,13 @@ LOCAL_OVERRIDES_PACKAGES := \
 Aperture \
 Browser2 \
 Calendar \
+CalendarGooglePrebuilt \
 Chrome \
 Chrome-Stub \
 DerpWalls \
 DeskClock \
 Drive \
+FilesPrebuilt \
 GameSpace \
 Gallery2 \
 Maps \
@@ -20,6 +22,8 @@ MusicFX \
 ParallelSpace \
 PrebuiltGmail \
 SafetyHubPrebuilt \
+ScribePrebuilt \
+SoundAmplifierPrebuilt \
 Stk \
 Tag \
 TouchGestures \
