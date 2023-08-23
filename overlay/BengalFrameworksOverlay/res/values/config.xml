@@ -290,8 +290,8 @@
     <string-array name="config_cameraAuxPackageAllowList" translatable="false">
         <item>com.android.MGC</item>
         <item>com.android.camera</item>
-        <item>org.lineageos.aperture</item>
-        <item>org.lineageos.aperture.dev</item>
+        <item>org.derpfest.flash</item>
+        <item>org.derpfest.flash.dev</item>
     </string-array>
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
